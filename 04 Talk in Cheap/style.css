@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li{
+    padding: 0 1rem;
+}
+
+
+
+.card-style{
+    padding: 1rem;
+    display: flex-column;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-style img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.cardsLayout{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
