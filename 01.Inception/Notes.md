@@ -98,8 +98,7 @@ The `ReactDOM.render()` function is like the construction crew. It takes the blu
 
 # 7.**What is `async and defer`?**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/10fc8ae9-3c31-4ee0-8fdc-97c1c4ddd450/e8f515c8-8f10-43db-93a4-a7754aa51e67/Untitled.png)
-
+![Alt text](image-1.png)
 - **(No Attribute):**
   - If neither **`async`** nor **`defer`** is specified, the script is treated as blocking, and HTML parsing halts until the script is downloaded and executed.
   - This might cause slower page loading times, especially if the script is large or hosted on a slow server.
