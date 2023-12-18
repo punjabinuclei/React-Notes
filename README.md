@@ -1,7 +1,10 @@
 # React-Notes
 
 
+
+
 - # 1. **Difference between a `Library and Framework`?**
+
 
 - **Library:** A library is like a toolbox. It contains a collection of tools that you can use to build your software.
 - **Framework:** A framework is like a blueprint. It provides a structure for your software, and it tells you how to put the pieces together.
@@ -11,9 +14,18 @@ Here is an analogy that you could use in an interview:
 - **Library:** Imagine that you are building a house. You could go to the hardware store and buy all of the tools you need separately. But it would be much easier to buy a kit that comes with all of the tools you need, as well as instructions on how to put them together. A library is like a kit for building software.
 - **Framework:** Imagine that you are building a house, but you want to make sure that it is built to a certain standard. You could hire an architect to design the house for you. But it would be much easier to use a pre-existing framework that has already been designed to meet certain standards. A framework is like an architect for building software.
 
-![Alt text](image.png)
+
+
+![!\[Alt text\](!\[image.png\](01.Inception/image.png))](01.Inception/image.png)
+
+
+
 
 ---
+
+
+
+
 
 # 2.**What is `CDN`? Why do we use it?**
 
@@ -30,15 +42,27 @@ Here is an analogy that you could use in an interview:
   Increased website availability: Improved uptime and reduced downtime
   Reduced stress on origin servers: Less load on the main server, allowing it to handle more traffic
 
+
+
+
 ---
+
+
+
+
 
 # 3.**Why is React known as React?**
 
 **The name “React” was chosen because it is meant to help developers build user interfaces that are fast and responsive, or “reactive”**
 
+
+
+
 ---
 
-# **What is `crossorigin in script tag`?**
+
+
+# 4. **What is `crossorigin in script tag`?**
 
 - The **`crossorigin`** attribute in the **`<script>`** tag is used to manage how a browser loads and executes scripts from a different domain.
 - It helps enforce security by specifying whether the script should be fetched with or without sending credentials (like cookies) along with the request.
@@ -55,7 +79,15 @@ Here is an analogy that you could use in an interview:
   ```
 - If the **`crossorigin`** attribute is not specified, it defaults to **`"anonymous"`**. This attribute is important for security, especially when scripts come from different orig
 
+
+
+
+
 ---
+
+
+
+
 
 # 5. **What is difference between `React and ReactDOM`?**
 
@@ -97,11 +129,23 @@ This code will create a React component called `App`. The `App` component is lik
 
 The `ReactDOM.render()` function is like the construction crew. It takes the blueprint from the `App` component and builds the house for you. In this case, the house is a `div` element with the text "Hello, world!".
 
+
+
+
+
 ---
 
-# 7.**What is `async and defer`?**
+
+
+
+# 6.**What is `async and defer`?**
+
+
 
 ![Alt text](image-1.png)
+
+
+
 - **(No Attribute):**
   - If neither **`async`** nor **`defer`** is specified, the script is treated as blocking, and HTML parsing halts until the script is downloaded and executed.
   - This might cause slower page loading times, especially if the script is large or hosted on a slow server.
@@ -129,3 +173,8 @@ The `ReactDOM.render()` function is like the construction crew. It takes the blu
   - Use **`async`** when the script is independent and order of execution is not critical.
   - Use **`defer`** when the script relies on the DOM structure and needs to be executed in order.
   - If neither **`async`** nor **`defer`** is specified, ensure that the script doesn't impact critical rendering paths, or consider moving the script tag to the end of the HTML document.
+
+
+
+
+  ---
